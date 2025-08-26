@@ -1,0 +1,1 @@
+{"threshold_f1": 0.5610868781588889, "threshold_cost": 0.6, "cost_fp": 1.0, "cost_fn": 5.0, "features": ["n_bureau", "n_bureau_months", "n_prev", "n_inst_pay", "n_pos_cash", "n_ccb", "credit_income_perc", "annuity_income_perc", "credit_term", "goods_credit_ratio", "age_years", "employed_years", "EXT_SOURCE_1", "EXT_SOURCE_2", "EXT_SOURCE_3"]}

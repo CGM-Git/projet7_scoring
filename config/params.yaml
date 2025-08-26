@@ -1,0 +1,4 @@
+seed: 42
+target: A_REMPLIR   # nom de la colonne cible quand elle sera connue
+test_size: 0.2
+val_size: 0.2

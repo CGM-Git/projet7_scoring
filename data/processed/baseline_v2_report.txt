@@ -1,0 +1,5 @@
+Seuil:0.664
+Precision:0.231
+Recall:0.376
+F1:0.287
+TP:1868 FP:6206 FN:3097 TN:50332

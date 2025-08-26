@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Sources brutes (lourdes)
+Sources/
+**/*.zip
+
+# Données volumineuses
+data/raw/
+data/processed/*.csv
+
+# Modèles / figures
+models/*.joblib
+reports/figures/
