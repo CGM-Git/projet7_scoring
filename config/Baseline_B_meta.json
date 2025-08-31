@@ -1,0 +1,35 @@
+{
+  "features": [
+    "credit_income_perc",
+    "annuity_income_perc",
+    "goods_price_income_perc",
+    "age_years",
+    "employed_years",
+    "ext1",
+    "ext2",
+    "ext3",
+    "cnt_children",
+    "cnt_family_members",
+    "n_prev_apps",
+    "is_new_to_credit",
+    "n_bureau",
+    "n_bureau_months",
+    "n_prev",
+    "n_inst_pay",
+    "n_pos_cash",
+    "n_ccb"
+  ],
+  "threshold_business": 0.513,
+  "business_costs": {
+    "FN": 10.0,
+    "FP": 1.0
+  },
+  "auc_roc": 0.733,
+  "auc_pr": 0.2157,
+  "confusion_matrix": {
+    "TP": 3174,
+    "FP": 16760,
+    "FN": 1791,
+    "TN": 39778
+  }
+}
