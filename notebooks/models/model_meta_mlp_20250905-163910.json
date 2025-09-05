@@ -1,0 +1,40 @@
+{
+  "model": "mlp",
+  "version": "20250905-163910",
+  "features": [
+    "credit_income_perc",
+    "annuity_income_perc",
+    "goods_price_income_perc",
+    "age_years",
+    "employed_years",
+    "ext1",
+    "ext2",
+    "ext3",
+    "cnt_children",
+    "cnt_family_members",
+    "is_new_to_credit"
+  ],
+  "threshold": 0.09090909090909091,
+  "cost_fp": 1.0,
+  "cost_fn": 10.0,
+  "train_rows": 276759,
+  "test_rows": 30752,
+  "split_info": "lock test 10% (stratified)",
+  "metrics": {
+    "accuracy": 0.7240504682622269,
+    "precision": 0.17236109595022378,
+    "recall": 0.6359242851389448,
+    "f1": 0.2712126417038818,
+    "cost": 16622.0,
+    "cost_per_1k": 540.5176899063475,
+    "tp": 1579,
+    "fp": 7582,
+    "fn": 904,
+    "tn": 20687
+  },
+  "files": {
+    "train_csv": "train_features_v1.csv",
+    "test_csv": null,
+    "model_path": "mlp_isotonic_20250905-163910.pkl"
+  }
+}

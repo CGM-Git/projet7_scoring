@@ -1,0 +1,5 @@
+Seuil(min_cost): 0.513
+Précision: 0.159 | Rappel: 0.639 | F1: 0.255
+Coût(FNx10+FPx1): 34649
+TP:3174 FP:16739 FN:1791 TN:39799
+Positifs:4965 | Négatifs:56538

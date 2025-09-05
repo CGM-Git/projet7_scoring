@@ -1,0 +1,43 @@
+{
+  "model": "LightGBM + Isotonic",
+  "version": "20250905-152349",
+  "features": [
+    "SK_ID_CURR",
+    "n_bureau",
+    "n_bureau_months",
+    "n_prev",
+    "n_inst_pay",
+    "n_pos_cash",
+    "n_ccb",
+    "credit_income_perc",
+    "annuity_income_perc",
+    "goods_price_income_perc",
+    "age_years",
+    "employed_years",
+    "ext1",
+    "ext2",
+    "ext3",
+    "cnt_children",
+    "cnt_family_members",
+    "n_prev_apps",
+    "is_new_to_credit"
+  ],
+  "threshold": 0.09090909090909091,
+  "cost_fp": 1.0,
+  "cost_fn": 10.0,
+  "train_rows": 276759,
+  "test_rows": 30752,
+  "split_info": "lock test 10% (stratified)",
+  "metrics": {
+    "accuracy": 0.7281152445369407,
+    "precision": 0.1751050187928366,
+    "recall": 0.6379379782521144,
+    "f1": 0.27478532396565186,
+    "cost": 16452.0,
+    "cost_per_1k": 534.9895941727367,
+    "tp": 1584,
+    "fp": 7462,
+    "fn": 899,
+    "tn": 20807
+  }
+}

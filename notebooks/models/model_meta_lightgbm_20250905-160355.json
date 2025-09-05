@@ -1,0 +1,48 @@
+{
+  "model": "lightgbm",
+  "version": "20250905-160355",
+  "features": [
+    "SK_ID_CURR",
+    "n_bureau",
+    "n_bureau_months",
+    "n_prev",
+    "n_inst_pay",
+    "n_pos_cash",
+    "n_ccb",
+    "credit_income_perc",
+    "annuity_income_perc",
+    "goods_price_income_perc",
+    "age_years",
+    "employed_years",
+    "ext1",
+    "ext2",
+    "ext3",
+    "cnt_children",
+    "cnt_family_members",
+    "n_prev_apps",
+    "is_new_to_credit"
+  ],
+  "threshold": 0.09090909090909091,
+  "cost_fp": 1.0,
+  "cost_fn": 10.0,
+  "train_rows": 276759,
+  "test_rows": 30752,
+  "split_info": "lock test 10% (stratified)",
+  "metrics": {
+    "accuracy": 0.7261966701352758,
+    "precision": 0.17332452954770552,
+    "recall": 0.6343133306484092,
+    "f1": 0.2722558340535869,
+    "cost": 16592.0,
+    "cost_per_1k": 539.5421436004162,
+    "tp": 1575,
+    "fp": 7512,
+    "fn": 908,
+    "tn": 20757
+  },
+  "files": {
+    "train_csv": "train_features_v1.csv",
+    "test_csv": null,
+    "model_path": "lightgbm_isotonic_20250905-160355.pkl"
+  }
+}
